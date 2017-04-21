@@ -1,0 +1,291 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/**/
+
+body *{
+	font-family: 微軟正黑體, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+	text-decoration: none;
+	color: black;
+}
+.clear {
+	clear:both;
+	height: 0;
+	width: 0;
+	line-height: 0;
+}
+.wrap {
+	width: 1000px;
+	margin: 0 auto;
+	text-align: center;
+	background: seashell;
+}
+h1 {
+	font-size: 3.5em;
+	padding: 1em 0;
+}
+h2 {
+	font-size: 2.2em;
+	padding: 0.6em 0;
+	border-bottom: 1px solid gray;
+}
+
+.top {
+	min-height: 180px;
+	padding: 10px 0;
+}
+.top img {
+	height: 180px;
+}
+.navbar {
+	height: 100px;
+}
+.navbar li {
+	display: inline-block;
+	padding:10px;
+}
+.navbar a{
+	text-decoration: none;
+	font-size: 32px;
+}
+.navbar a:hover {
+	color: white;
+	background: chocolate;
+	
+}
+.banner * {
+	color: white;
+	text-shadow: 2px 2px grey;
+}
+.banner {
+    height: 300px;
+	background: url(../img/banner2.jpg); 
+	background-size: 1200px;
+	background-repeat: no-repeat;
+}
+.banner p{
+	font-size: 1.7em;
+}
+.filter {
+	height: 310px;
+	width: 900px;
+	display: block;
+	position: relative;
+	top:-225px;
+	left:50px;
+	background: rgba(100,100,100, 0.2);
+}
+
+.content {
+	margin-top: 10px;
+}
+.consume {
+	float: left;
+	width: 500px;
+}
+.rank {
+	float:right;
+	width: 500px;
+}
+.consumeinfo {
+	min-height: 200px;
+}
+.consumeinfo p {
+
+	line-height: 1.3em;
+		padding: 30px 20px;
+	margin-top: 20px;
+}
+.mealinfo span {
+	font-size: 1.4em;
+	border-bottom: 1px solid gray ;
+	display: block;
+	padding: 15px 0;
+	margin-top: 10px;
+
+}
+.meal-box {
+  width: 250px;
+  height: 160px;
+  position: relative;
+  overflow: hidden;
+  float:left;
+  padding: 5px;
+}
+
+.meal-box img {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: all 1s;
+}
+
+.meal-box .box-hover-text {
+  width: 100%;
+  height: 100%;
+  position: absolute; 
+  left: 0;
+  top: 0;
+  display: none;
+  background-color: rgba(0,0,0, 0.7);
+}
+.box-hover-text {
+	color: white;
+	font-size: 2em;
+	padding: 0.5rem;
+}
+.meal-box:hover img {
+  transform: scale(1.5);
+}
+
+.meal-box:hover .box-hover-text {
+  display: block;
+}
+
+.mealeva {
+	float: left;
+	width: 500px;
+}
+.evaluation {
+	float: right;
+	width: 480px;
+	max-height: 800px;
+	overflow: scroll;
+}
+
+.evacontent {
+	padding: 10px 0;
+	border: 1px ridge;
+}
+.evacontent img {
+	float: left;
+	width: 100px;
+	height: 100px;
+}
+.name {
+	font-size:28px;
+	padding: 15px 0px;
+}
+.star {
+	font-size: 44px;
+	margin: 10px;
+}
+.evacontent p {
+	padding: 10px 5px;
+	margin: 10px 0px;
+	border: 1px ridge;
+}
+
+
+
+
+
+
+
+
+
+.rank h3 {
+	font-size: 36px;
+
+	padding: 10px 10px;
+}
+.top1{
+	height: 240px;
+}
+.top23 {
+	height: 190px;
+}
+.top23 img {
+	width: 220px;
+	float: left;
+}
+.top23 h4 {
+	font-size: 26px;
+
+	padding: 20px 10px;
+}
+.top1 img {
+	width: 300px;
+	float: left;
+}
+
+.footer {
+	width: 100%;
+	height: 180px;
+	border-top: 1px solid gray;
+}
+.info {
+	margin-top: 20px;
+}
+.contactinfo {
+	width: calc(100%/3);
+	float:left;
+}
+.contactinfo span {
+	font-size: 24px;
+	margin: 10px 0 30px 0;
+
+}
+.contactinfo img {
+	width: 50px;
+	height: 50px;
+	display: inline-flex;
+}
+.opentime {
+	width: calc(100%/3*2);
+	float: right;
+}
+.opentime h4 {
+	font-size: 32px;
+}
+.opentime p {
+	font-size: 22px;
+}
+#copyright {
+	margin-top:10px; 
+}
